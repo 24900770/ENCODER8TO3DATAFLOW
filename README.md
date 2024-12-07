@@ -45,7 +45,7 @@ Figure 02  Encoder 8 * 3
 Developed by: hariharan m
 RegisterNumber: 24900770
 */
-``
+~~
 `module Encoder(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
 input d0,d1,d2,d3,d4,d5,d6,d7;
 output a0,a1,a2;
@@ -53,7 +53,7 @@ assign a0 = d1|d3|d5|d7;
 assign a1 =d2|d3|d6|d7;
 assign a2 =d4|d5|d6|d7;
 endmodule
-```
+``
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![314525807-c9b2dc9c-9f0e-4190-8407-7365da168aba](https://github.com/priyadharshini210/ENCODER8TO3DATAFLOW/assets/148514638/8ca11b70-ce25-4787-bab0-a001e02f7e8b)
